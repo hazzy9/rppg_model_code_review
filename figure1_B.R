@@ -1,7 +1,7 @@
 # Figure B - Clarke Error Grid (CEG) on out-of-fold FPG predictions.
 #
 # Source data:
-#   ceg_oof_zero_shot.csv   (columns: license, y_true, y_pred_oof)
+#   figure1_source_data.csv   (columns: license, y_true, y_pred_oof)
 #
 # Output:
 #   figureB_clarke_error_grid.png
@@ -15,7 +15,7 @@ library(dplyr)
 library(tidyr)
 
 
-data_df <- read.csv("/Users/hannahkim/논문/data_requested/ceg_oof_zero_shot.csv")
+data_df <- read.csv("/Users/.../figure1_source_data.csv") #change directory to the location containing figure1_source_data.csv
 reference_bg <- data_df$y_true
 test_bg      <- data_df$y_pred_oof
 
