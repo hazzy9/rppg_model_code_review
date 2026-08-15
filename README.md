@@ -14,10 +14,11 @@ Scope note: this repository covers figure reproduction only — it takes already
 - figure2cd_source_data.npz # Fig 2C, 2D
 - figure2efg_source_data.npz # Fig 2E, 2F, 2G
 - figure3_source_data.npz # Fig 3A, 3B-D
+- LICENSE
+- README.md                                                   
 
-LICENSE
-README.md                                                   
-Data
+
+### Data
 
 Every file above is either:
 
