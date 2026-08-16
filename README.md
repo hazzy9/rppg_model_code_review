@@ -56,19 +56,19 @@ Rscript -e 'install.packages(c("ega", "ggplot2", "dplyr", "tidyr"))'
 Typical install time on a normal desktop with a working internet connection: under 5 minutes for the Python packages; the R packages (particularly ega, which compiles from source on some platforms) can take up to 10–15 minutes on a first install.
 
 
-- Demo
+### Demo
 
 The data files in this repository are the demo dataset — there's no separate synthetic version, since none of them contain information sensitive enough to need one (see Data, above).
 
 
-- To reproduce every Python figure:
+### To reproduce every Python figure:
 
 bash
 python3 figures_code.py
 
 This produces 13 PNG files in the working directory: figure1A_agreement_plot.png, figure1C_calibration_stability.png, figure2A_pca_scatter.png through figure2G_quadratic_fit.png, figure3A_avg_tfm.png, and figure3B_cohens_d.png / figure3C_cohens_d.png / figure3D_cohens_d.png.
 
-- To reproduce Figure 1B:
+### To reproduce Figure 1B:
 
 bash
 Rscript figure1B_clarke_error_grid.R
@@ -79,12 +79,12 @@ Expected run time: under 15 seconds for all Python figures combined, on a normal
 
 Expected output: figures matching those published in the manuscript. Since the shared data is a 100-recording stratified subsample rather than the full cohort, exact pixel values (point positions, regression coefficients, color-map ranges) will differ slightly from the published version, but the overall pattern — direction of correlations, cluster locations, effect-size signs — should match.
 
-- Instructions for use
+### Instructions for use
 Reproducing the manuscript figures
 
 Each block in figures_code.py is self-contained and independent of the others — run the whole file for all figures, or copy out a single block to regenerate just one. Every block states at the top which data file it reads and which image it writes.
 
-- Figure	Data file	Script
+### Figure	Data file	Script
 1A	figure1_source_data.csv	figures_code.py
 1B	figure1_source_data.csv	figure1B_clarke_error_grid.R
 1C	phase1_decay_uncal_vs_frozen_vs_decayed_summary.csv	figures_code.py
