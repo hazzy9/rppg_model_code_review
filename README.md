@@ -14,7 +14,6 @@ Scope note: this repository covers figure reproduction only — it takes already
 - figure2cd_source_data.npz # Fig 2C, 2D
 - figure2efg_source_data.npz # Fig 2E, 2F, 2G
 - figure3_source_data.npz # Fig 3A, 3B-D
-- LICENSE
 - README.md                                                   
 
 
@@ -96,7 +95,3 @@ Each block in figures_code.py is self-contained and independent of the others �
 Running on your own data
 
 Each block reads a plainly-schemad CSV or NPZ — to reuse a block on a new dataset, format your own data to match the columns/keys documented in that block's header comment (e.g. Figure 2A/2B need pc1, pc2, fpg columns; Figure 3A/3B–D need images (N,64,64,C), fpg_bin3 (N,), channels (C,) in an .npz). No part of the plotting code is hardcoded to this study's cohort beyond the FPG bin edges (<100 / 100–125 / ≥126 mg/dL, the standard ADA fasting-glucose categories), which can be edited directly in the script if a different binning is needed.
-
-- License
-
-This code is released under the MIT License (see LICENSE). This is an OSI-approved permissive license, compatible with the Nature journal License list.
