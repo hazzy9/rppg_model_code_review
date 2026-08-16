@@ -24,7 +24,7 @@ Every file above is either:
 Population-level, not per-subject (figure2cd_source_data.npz, figure2efg_source_data.npz's group-mean/stability arrays, phase1_..._summary.csv) — fitted-model parameters or across-subject bootstrap statistics, nothing traceable to an individual, or
 Per-subject but capped and stratified (figure1_source_data.csv, figure2_source_data.csv, the per-subject arrays in figure2efg_source_data.npz, figure3_source_data.npz) — a 100-recording subsample, stratified by FPG range to preserve the original cohort's proportions, with no raw signal, timestamp, or subject identifier included.
 
-No raw video, rPPG waveform, or personally identifying field is present in any file in this repository.
+No raw video, rPPG waveform, or personally identifying field is present in any file in this repository to protect individual privacy rights.
 
 
 ### System requirements
