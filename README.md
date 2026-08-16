@@ -5,7 +5,7 @@ Code to reproduce every quantitative figure in the manuscript (Figures 1–3) fr
 Scope note: this repository covers figure reproduction only — it takes already-processed, derived data (PCA scores, spectrogram averages, bootstrap summary statistics) and turns it into the published plots. It does not include the upstream rPPG signal-processing or model-training pipeline that produced that derived data in the first place, since that data is not something we can share in raw form (see Data below).
 
 ### Contents
-- figures_code.py # all Python figures (1A, 1C, 2A-G, 3A, 3B-D)
+- figures_code_review.py # all Python figures (1A, 1C, 2A-G, 3A, 3B-D)
 - figure1B_clarke_error_grid.R # Figure 1B (R, run separately)
 
 - figure1_source_data.csv # Fig 1A, 1B
