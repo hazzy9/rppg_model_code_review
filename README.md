@@ -43,7 +43,7 @@ Operating system: developed and tested on Linux; no OS-specific code paths, so m
 
 
 ### Installation guide
-bash
+bash code:
 git clone <this repository>
 cd <repository>
 
@@ -63,14 +63,14 @@ The data files in this repository are the demo dataset — there's no separate s
 
 ### To reproduce every Python figure:
 
-bash
+bash code:
 python3 figures_code.py
 
 This produces 13 PNG files in the working directory: figure1A_agreement_plot.png, figure1C_calibration_stability.png, figure2A_pca_scatter.png through figure2G_quadratic_fit.png, figure3A_avg_tfm.png, and figure3B_cohens_d.png / figure3C_cohens_d.png / figure3D_cohens_d.png.
 
 ### To reproduce Figure 1B:
 
-bash
+bash code:
 Rscript figure1B_clarke_error_grid.R
 
 This produces figure1B_clarke_error_grid.png plus a printed Clarke-zone summary table (points, %, A+B cumulative %) in the console.
