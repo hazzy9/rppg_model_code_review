@@ -6,7 +6,6 @@ Reproduces the results reported in the manuscript: Biphasic Spectral Signatures 
 
 | File | Manuscript section |
 |---|---|
-| `signals.py` | Remote PPG Signal Extraction Functions|
 | `processing.py` | Implements Remote PPG Signal Extraction to produce 7 channels|
 | `preprocessing.py` | Signal Preprocessing (Steps 1-4) |
 | `sqi.py` | Signal-to-noise calculation functions for channel selection) |
